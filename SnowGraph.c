@@ -23,10 +23,10 @@ int main(int argc, char** argv)
 
     //calcualte average, min, and max
     int j = 2;
-    int minL = 2;
-    int maxL = 2;
-    double min = atof(argv[j]);
-    double max = atof(argv[j]);
+    int minL = 2; //store first minL
+    int maxL = 2; //store first maxL
+    double min = atof(argv[j]); //store first min
+    double max = atof(argv[j]); //store first max
     double total = 0;
     double t;
 
